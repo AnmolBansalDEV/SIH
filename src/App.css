@@ -119,7 +119,7 @@ white-space: nowrap;
     padding-left: 120px;
 }
 .home-txt > h1{
-    font-family: 'Inter';
+    font-family: 'montserrat';
 font-style: normal;
 font-weight: 800;
 font-size: 34px;
@@ -133,7 +133,7 @@ color: #000000;
 
 }
 .home-txt > p{
-    font-family: 'Inter';
+    font-family: 'montserrat';
     width: 350px;
 font-style: normal;
 font-weight: 100;
