@@ -1,38 +1,246 @@
-.App {
-  text-align: center;
+.app{
+    position: fixed;
+}
+.Home{
+    background: linear-gradient(104.99deg, #79BBF9 0%, #C997FF 40.75%, rgba(224, 28, 216, 0.45) 62.65%, rgba(224, 28, 216, 0.45) 83.73%);
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    z-index: -1;
+    /* padding-bottom: 270px; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.grid{ position:absolute; z-index: -1 ; top:0; left:0; height:100%; width:100% }
+.sphere{
+    position: absolute;
+width: 130px;
+height: 233px;
+left: 160px;
+top: 0px;
+z-index: 0; 
+}
+.star{
+    position: absolute;
+    z-index: 0;
+    left: 200px;
+    top: 170px;
+}
+.triangle{
+    position: absolute;
+    z-index: 0;
+    top: 200px;
+    width: 400px;
+    right: 100px;
+}
+.slingy{
+    position: absolute;
+    z-index: 0;
+    width: 160px;
+    top: 410px;
+    left: 320px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav{
+     padding: 0 326px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.main-logo{
+    /* width: 150px;
+    height: 125px; */
+    width: 20%;
+    transform: rotate(-0.78deg);
+}
+.logo-txt{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 61px;
+letter-spacing: 0.2em;
+color: #000000;
+white-space: nowrap;
+text-align: left;
+position: relative;
+right: 38px;
+transform: rotate(0.38deg);
+}
+.about{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 29px;
+letter-spacing: 0.2em;
+
+color: #000000;
+text-decoration: none;
+margin-left: 200px;
+}
+.contact{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 29px;
+letter-spacing: 0.2em;
+margin-left: 50px;
+color: #000000;
+text-decoration: none;
+text-align: center;
+white-space: nowrap;
+}
+.login{
+background: linear-gradient(94.12deg, #000000 17.67%, #000000 68.68%);
+border-radius: 23px;
+margin-left: 50px;
+height: fit-content;
+padding: 6px 15px;
+}
+.login-txt{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 29px;
+letter-spacing: 0.2em;
+text-decoration: none;
+color: #FFFFFF;
+text-align: left;
+white-space: nowrap;
+}
+.home-txt{
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    padding: 0 60px;
+    padding-left: 120px;
+}
+.home-txt > h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 34px;
+text-align: left;
+line-height: 50px;
+/* or 125% */
+
+letter-spacing: 0.1em;
+
+color: #000000;
+
+}
+.home-txt > p{
+    font-family: 'Inter';
+    width: 350px;
+font-style: normal;
+font-weight: 100;
+font-size: 16px;
+line-height: 35px;
+text-align: left;
+/* or 146% */
+
+letter-spacing: 0.1em;
+
+color: #000000;
+margin-top: 0px;
+margin-bottom: 15px;
+}
+.demo-btn{
+    background: #000000;
+border-radius: 28.5px;
+width: fit-content;
+padding: 2px 25px;
+
+}
+.demo-btn > a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+line-height: 29px;
+letter-spacing: 0.2em;
+
+color: #FFFFFF;
+
+}
+.about-container{
+    background: linear-gradient(101.67deg, #0D000F 0%, #140214 47.16%, #200021 100%);
+    padding-bottom: 0px;
+    /* height: 100vh; */
+    
+}
+.about-container > h1{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+display: inline-block;
+position: relative;
+bottom: 150px;
+line-height: 117px;
+margin-bottom: 0px;
+padding-bottom: 0px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+
+}
+.topCube{
+ width: 15%;
+ margin: 0px;
+ padding: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.lightAboutTxt{
+    font-weight: 300;
 }
 
-.App-link {
-  color: #61dafb;
+.team-grid{
+    display: grid;
+    grid-template: 250px 250px / 1fr 1fr ;
+    column-gap: 15px;
+    /* grid-template-rows: 180px 180px 180px ; */
+    margin: 0 0 0 190px;
+    text-align: left;
+    position: relative;
+    bottom:100px ;
+    
+}
+.team-img{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.07) 0%, rgba(217, 217, 217, 0.119) 100%);
+    height: 90px;
+    width: 80px;
+    display: inline-block;
+    margin-right: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.team-name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 0px;
+    display: inline-block;
+    position: absolute;
+    white-space: nowrap;
+    /* identical to box height */
+    
+    letter-spacing: 0.1em;
+    
+    color: #FFFFFF;
+    
+}
+.bottomCube{
+    width: 690px;
+    position: relative;
+    z-index: 0;
+    left: 570px;
+    bottom: 900px;
+    
+
 }
