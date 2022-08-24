@@ -63,6 +63,7 @@ color: #000000;
 white-space: nowrap;
 text-align: left;
 position: relative;
+bottom: 9px;
 right: 38px;
 transform: rotate(0.38deg);
 }
@@ -241,6 +242,4 @@ color: #FFFFFF;
     z-index: 0;
     left: 570px;
     bottom: 900px;
-    
-
 }
