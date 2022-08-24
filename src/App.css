@@ -13,9 +13,10 @@
 .grid{ position:absolute; z-index: -1 ; top:0; left:0; height:100%; width:100% }
 .sphere{
     position: absolute;
-width: 130px;
-height: 233px;
-left: 160px;
+/* width: 130px; */
+width: 10%;
+height: 40%;
+left: 12.5%;
 top: 0px;
 z-index: 0; 
 }
@@ -133,7 +134,7 @@ color: #000000;
 
 }
 .home-txt > p{
-    font-family: 'montserrat';
+    font-family: 'inter';
     width: 350px;
 font-style: normal;
 font-weight: 100;
@@ -240,6 +241,6 @@ color: #FFFFFF;
     width: 690px;
     position: relative;
     z-index: 0;
-    left: 570px;
+    left: 50%;
     bottom: 900px;
 }

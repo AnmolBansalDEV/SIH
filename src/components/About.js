@@ -3,7 +3,7 @@ import topCube from '../assets/top-cube.png'
 import bottomCube from '../assets/bottom-cube.png'
 
 export default function About(){
-  return(
+    return(
         <div className="about-container">
             <img src={topCube} className='topCube' alt='cube object' />
             <h1>A<span className="lightAboutTxt">bout</span></h1>
@@ -13,7 +13,7 @@ export default function About(){
                 <h1 className="team-name">Aryaman Raj</h1>
                 </div>
                 <div>
-                <div className="team-img"></div>
+                    <div className="team-img"></div>
                 <h1 className="team-name">Anmol Bansal</h1>
                 </div>
                 <div>
@@ -33,7 +33,7 @@ export default function About(){
                 <h1 className="team-name">Sarthak Saxena</h1>
                 </div>
             </div>
-            <img src={bottomCube} className='bottomCube' alt='bottom cube' />
+<img src={bottomCube} className='bottomCube' alt='bottom cube' />
         </div>    
 )
 }
