@@ -14,10 +14,10 @@
 .sphere{
     position: absolute;
 /* width: 130px; */
-width: 10%;
-height: 40%;
-left: 12.5%;
-top: 0px;
+width: 8rem;
+height: 14.5rem;
+left: 10rem;
+top: 0;
 z-index: 0; 
 }
 .star{
