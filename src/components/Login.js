@@ -1,4 +1,5 @@
 import React,{useState} from "react";
+import Footer from "./Footer";
 import {useNavigate} from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye ,faEyeSlash } from "@fortawesome/free-regular-svg-icons";
@@ -35,6 +36,7 @@ setCredentials((prevCred)=>({...prevCred, [input.target.name]: input.target.valu
         <button onClick={handleSubmit} className="login-btn">Login</button>
         <button onClick={()=> navigate('/register')} className="login-btn">Register</button>
         </div>
+        <Footer />
         </div>
     )
 }

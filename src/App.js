@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import './login-page.css'
+import './footer-page.css'
 import './registration-page.css'
 import HomePage from './components/HomePage'
 import Team from './components/Team';

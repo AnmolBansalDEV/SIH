@@ -1,4 +1,5 @@
 import React,{useState} from "react";
+import Footer from "./Footer";
 import LoginNav from "./LoginNav";
 import topSphere from "../assets/top-sphere.png"
 import SideBig from "../assets/side-big.png"
@@ -52,8 +53,8 @@ export default function Register(){
         </div>
         <div className="btn-container">
         <button  onClick={handleSignUp} className="login-btn">Sign Up</button>
-        
         </div>
+        <Footer />
         </div>
     )
 }

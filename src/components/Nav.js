@@ -11,6 +11,7 @@ export default function Nav(){
             <Link to="/about" className="about">ABOUT</Link>
             <Link to="/contact" className='contact'>TEAM</Link>
             <button onClick={()=> navigate("/login")} className='login'><p className='login-txt'>LOGIN</p></button>
+            {/* <div className='login'><Link to='/login' className='login-txt'>LOGIN</Link></div> */}
         </nav>
     )
 }

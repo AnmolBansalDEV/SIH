@@ -5,6 +5,7 @@ import SvgSphere from './svgSphere'
 import SvgStar from './svgStar'
 import SvgTriangle from './SvgTriangle'
 import SvgSlingy from './svgSlingy'
+import Footer from './Footer'
 import {useNavigate} from 'react-router-dom'
 
 export default function HomePage(){
@@ -22,6 +23,7 @@ export default function HomePage(){
             <p>Store your data using our simple API. It’s fast, open, and it’s free.</p>
             <button onClick={()=> navigate("/login")} className='demo-btn'><span>START STORING</span></button>
         </div>    
+        <Footer />
         </section>
     )
 } 
