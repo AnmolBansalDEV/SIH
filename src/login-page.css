@@ -1,22 +1,26 @@
 .login-page{
     background: linear-gradient(101.67deg, #000000 0%, #0A001C 100%);
+    padding-bottom: 6rem;
 }
 .loginNav{
     padding: 0 326px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 2rem;
+    position: relative;
+    z-index: 2;
 }
 .loginNav-logo{
    /* width: 150px;
    height: 125px; */
-   width: 20%;
+   width: 18%;
    transform: rotate(-0.78deg);
 }
 .navigation-link{
     position: relative;
-    top: 40px;
-    right: 36px;
+    top: 2rem;
+    right:2rem;
 }
 .navigation-bar{
     font-family: 'Montserrat';
@@ -25,15 +29,19 @@ font-weight: 400;
 font-size: 13px;
 line-height: 29px;
 letter-spacing: 0.2em;
-
+text-decoration: none;
 color: #FFFFFF;
 
+}
+.selected{
+    font-weight: 600;
 }
 .loginNav-logo-txt{
    font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
-font-size: 34px;
+font-size: 30px;
+padding-left: 10px;
 line-height: 61px;
 letter-spacing: 0.2em;
 color: #ffffff;
@@ -88,3 +96,101 @@ color: #FFFFFF;
 text-align: left;
 white-space: nowrap;
 }
+.login-page > h1{
+    
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 26px;
+line-height: 39px;
+/* identical to box height */
+text-align: center;
+margin-top: 6rem;
+padding-bottom: 2rem;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+
+}
+.login-container{
+    background: linear-gradient(116.92deg, rgba(255, 255, 255, 0.4) 10.83%, rgba(198, 194, 194, 0.1) 80.06%);
+box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 11px;
+text-align: center;
+margin: auto;
+width: 23rem;
+height: 15rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-bottom: 2rem;
+}
+.login-input{
+    background: linear-gradient(116.92deg, rgba(255, 255, 255, 0.4) 10.83%, rgba(198, 194, 194, 0.1) 80.06%);
+box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+margin-bottom: 2rem;
+border-radius: 10px;
+border: none;
+width: 16rem;
+height: 3rem;
+text-indent: 10px;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-btn{
+    background: linear-gradient(94.12deg, #6D2ADA 17.67%, #2D2BA4 68.68%);
+border-radius: 23px;
+border: none;
+width: 6rem;
+height: 2rem;
+/* text-align: center; */
+margin-right: 1rem;
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+}
+.cylinder-img{
+    width: 20%;
+    position: absolute;
+    top: -2.7rem;
+    left: 7rem;
+}
+.gear-img{
+    width: 36%;
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+}
+
+::placeholder {
+    
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+text-align: center;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+  }

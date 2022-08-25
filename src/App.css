@@ -1,3 +1,5 @@
+/* *{scroll-behavior: smooth;} */
+
 .app{
     position: fixed;
 }
@@ -16,7 +18,7 @@
 /* width: 130px; */
 width: calc(50% - 32rem);
 height: calc(50% - 3.5rem);
-left: calc(50% - 30rem);
+right: calc(50vw + 27%);
 top: 0;
 z-index: 0; 
 }
@@ -68,22 +70,24 @@ bottom: 9px;
 right: 38px;
 transform: rotate(0.38deg);
 }
+a{
+    text-decoration: none;
+}
 .about{
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 29px;
-letter-spacing: 0.2em;
-
-color: #000000;
-text-decoration: none;
-margin-left: 200px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 29px;
+    letter-spacing: 0.2em;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 200px;
 }
 .contact{
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
+    font-style: normal;
+    font-weight: 700;
 font-size: 15px;
 line-height: 29px;
 letter-spacing: 0.2em;
@@ -97,8 +101,9 @@ white-space: nowrap;
 background: linear-gradient(94.12deg, #000000 17.67%, #000000 68.68%);
 border-radius: 23px;
 margin-left: 50px;
-height: fit-content;
-padding: 6px 15px;
+height: 2rem;
+text-align: center;
+padding: 0 10px;
 }
 .login-txt{
     font-family: 'Montserrat';
@@ -108,13 +113,14 @@ font-size: 15px;
 line-height: 29px;
 letter-spacing: 0.2em;
 text-decoration: none;
+margin: auto;
 color: #FFFFFF;
 text-align: left;
 white-space: nowrap;
 }
 .home-txt{
     width: 600px;
-    text-align: center;
+    text-align: left;
     margin: auto;
     padding: 0 60px;
     padding-left: 120px;
@@ -156,7 +162,7 @@ width: fit-content;
 padding: 2px 25px;
 
 }
-.demo-btn > a{
+.demo-btn > span{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;

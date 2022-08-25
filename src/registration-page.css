@@ -1,0 +1,23 @@
+.registration-page{
+    background: linear-gradient(101.67deg, #000000 0%, #0A001C 100%);
+    /* text-align: center; */
+}
+.full-size{
+    margin: auto;
+    margin-bottom: 1.5rem;
+    height: 3rem;
+    width: 38rem;
+    display: block;
+}
+
+.reg-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 0px;
+}
+.grid-mem{
+    /* margin-right: 0px; */
+    /* margin-left: 10rem; */
+    /* align-self: right;     */
+    text-align: center;
+}
