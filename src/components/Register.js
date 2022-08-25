@@ -1,5 +1,10 @@
 import React,{useState} from "react";
 import LoginNav from "./LoginNav";
+import topSphere from "../assets/top-sphere.png"
+import SideBig from "../assets/side-big.png"
+import sideSmall from "../assets/side-small.png"
+import midBig from "../assets/mid-big.png"
+import midSmall from "../assets/mid-small.png"
 
 export default function Register(){
     const [regDetails, setRegDetails] = useState(
@@ -25,6 +30,11 @@ export default function Register(){
     }
     return(
         <div className="registration-page">
+            <img className="topSphere" src={topSphere} alt='top sphere' />
+            <img className="sideBig" src={SideBig} alt='side big sphere' />
+            <img className="sideSmall" src={sideSmall} alt='side small sphere' />
+            <img className="midBig" src={midBig} alt='mid big sphere' />
+            <img className="midSmall" src={midSmall} alt='mid small sphere' />
         <LoginNav />
         
         <h1>Register</h1>

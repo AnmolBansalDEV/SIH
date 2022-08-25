@@ -68,6 +68,36 @@ text-indent: 10px;
 .shift-left{
     margin-right: 7rem;
 }
+
+.topSphere{
+    position: absolute;
+    width: 20%;
+}
+.sideBig{
+    position: absolute;
+    width: 20%;
+    right: 0;
+    top: 40%;
+}
+.sideSmall{
+    position: absolute;
+    width: 5%;
+    right: 0;
+    top: 0;
+}
+.midBig{
+    position: absolute;
+    width: 20%;
+    right: 50vw;
+    top: 50vh;
+}
+.midSmall{
+    position: absolute;
+    width: 7%;
+    right: 40%;
+    top: 70%;
+}
+
 ::placeholder {
     
     font-family: 'Montserrat';
