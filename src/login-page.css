@@ -85,6 +85,9 @@ margin-left: 50px;
 height: fit-content;
 padding: 6px 15px;
 }
+.loginNav-login:hover{
+    box-shadow: 2.5px 0px 10px 6px rgba(200, 151, 250, 0.52);
+}
 .loginNav-login-txt{
    font-family: 'Montserrat';
 font-style: normal;

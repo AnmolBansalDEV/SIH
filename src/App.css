@@ -88,14 +88,14 @@ a{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-font-size: 15px;
-line-height: 29px;
-letter-spacing: 0.2em;
-margin-left: 50px;
-color: #000000;
-text-decoration: none;
-text-align: center;
-white-space: nowrap;
+    font-size: 15px;
+    line-height: 29px;
+    letter-spacing: 0.2em;
+    margin-left: 50px;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
 }
 .login{
 background: linear-gradient(94.12deg, #000000 17.67%, #000000 68.68%);
@@ -181,26 +181,26 @@ color: #FFFFFF;
 }
 .about-container > h1{
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-display: inline-block;
-position: relative;
-bottom: 150px;
-line-height: 117px;
-margin-bottom: 0px;
-padding-bottom: 0px;
-/* identical to box height */
-
-letter-spacing: 0.1em;
-
-color: #FFFFFF;
-
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    display: inline-block;
+    position: relative;
+    bottom: 150px;
+    line-height: 117px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    /* identical to box height */
+    
+    letter-spacing: 0.1em;
+    
+    color: #FFFFFF;
+    
 }
 .topCube{
- width: 15%;
- margin: 0px;
- padding: 0px;
+    width: 15%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .lightAboutTxt{
@@ -216,6 +216,8 @@ color: #FFFFFF;
     text-align: left;
     position: relative;
     bottom:100px ;
+    
+    z-index: 2;
     
 }
 .team-img{
@@ -245,8 +247,8 @@ color: #FFFFFF;
 }
 .bottomCube{
     width: 690px;
-    position: relative;
+    position: absolute;
     z-index: 0;
-    left: 50%;
-    bottom: 900px;
+    right: 0px;
+    top: 0px;
 }
