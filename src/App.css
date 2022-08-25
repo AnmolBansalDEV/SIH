@@ -61,15 +61,15 @@ nav{
     font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
-font-size: 34px;
+font-size: 30px;
 line-height: 61px;
 letter-spacing: 0.2em;
 color: #000000;
 white-space: nowrap;
 text-align: left;
 position: relative;
-bottom: 9px;
-right: 38px;
+bottom: 19px;
+right: 58px;
 transform: rotate(0.38deg);
 }
 a{
