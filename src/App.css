@@ -8,11 +8,11 @@
     height: 100vh;
     width: 100vw;
     position: relative;
-    z-index: -1;
+    /* z-index: 1; */
     /* padding-bottom: 270px; */
 }
 
-.grid{ position:absolute; z-index: -1 ; top:0; left:0; height:100%; width:100% }
+.grid{ position:absolute; z-index: 0 ; top:0; left:0; height:100%; width:100% }
 .sphere{
     position: absolute;
 /* width: 130px; */
@@ -48,6 +48,8 @@ nav{
      display: flex;
      justify-content: center;
      align-items: center;
+     position: relative;
+     z-index: 1;
 }
 .main-logo{
     /* width: 150px;
@@ -104,6 +106,10 @@ margin-left: 50px;
 height: 2rem;
 text-align: center;
 padding: 0 10px;
+cursor: pointer;
+}
+.login:hover{
+    box-shadow: 2.5px 0px 10px 6px rgba(200, 151, 250, 0.52);
 }
 .login-txt{
     font-family: 'Montserrat';
@@ -124,6 +130,8 @@ white-space: nowrap;
     margin: auto;
     padding: 0 60px;
     padding-left: 120px;
+    position: relative;
+    z-index: 1;
 }
 .home-txt > h1{
     font-family: 'montserrat';
@@ -160,7 +168,11 @@ margin-bottom: 15px;
 border-radius: 28.5px;
 width: fit-content;
 padding: 2px 25px;
+cursor: pointer;
 
+}
+.demo-btn:hover{
+    box-shadow: 2.5px 0px 10px 6px linear-gradient(89.56deg, #76D1EE 6.56%, #DF7878 92.95%);
 }
 .demo-btn > span{
     font-family: 'Montserrat';

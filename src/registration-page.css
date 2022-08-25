@@ -51,16 +51,12 @@ text-indent: 10px;
     row-gap: 0em;
 }
 .grid-mem{
-    /* margin-right: 0px; */
-    /* margin-left: 10rem; */
-    /* align-self: right;     */
-    text-align: center;
+    
+    text-align: left;
     display: flex;
-    /* align-self: center; */
+    
     justify-self: center;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* justify-content: center; */
+    
 }
 .shift-right{
     margin-left: 7rem;

@@ -8,8 +8,9 @@ import Team from './components/Team';
 import Login from './components/Login';
 import Error from './components/Error';
 import Register from './components/Register';
+
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-// import LoginNav from './components/LoginNav';
+//  import Nav from './components/Nav';
 // import LoginNav from './components/LoginNav';
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
         <Route path='/team' element={<Team />} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
+        {/* <Route path='/nav' element={<Nav />} /> */}
+
         <Route path='/*' element={<Error />} />
       </Routes>
       {/* <HomePage />

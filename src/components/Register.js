@@ -15,15 +15,15 @@ export default function Register(){
             email: "",
             username: "",
             password: "",
+            confirmPassword:"",
             country: "",
-            state: "",
-            organization: ""
+            state: ""
     }
     );
     function handleClick(detail){
-        console.log(detail);
+        
         setRegDetails((prevDetails)=>({ ...prevDetails, [detail.target.name]: detail.target.value }));
-        console.log(regDetails);
+        
     }
     function handleSignUp(e){
         e.preventDefault();
@@ -46,9 +46,9 @@ export default function Register(){
             <input type="text" value={regDetails.email} onChange={handleClick} name="email" placeholder="Email" className="registration-input grid-mem shift-right" />
             <input type="text" value={regDetails.username} onChange={handleClick} name="username" placeholder="Username" className="registration-input grid-mem shift-left" />
             <input type="password" onChange={handleClick} value={regDetails.password} name="password" placeholder="Password" className="registration-input grid-mem shift-right" />
-            <input type="text" value={regDetails.country} onChange={handleClick} name="country" placeholder="Country" className="registration-input grid-mem shift-left" />
-            <input type="text" value={regDetails.state} onChange={handleClick} name="state" placeholder="State" className="registration-input grid-mem shift-right" />
-            <input type="text" value={regDetails.organization} onChange={handleClick} name="organization" placeholder="Organization" className="registration-input grid-mem shift-left" />
+            <input type="password" onChange={handleClick} value={regDetails.confirmPassword} name="confirmPassword" placeholder="Confirm Password" className="registration-input grid-mem shift-left" />
+            <input type="text" value={regDetails.country} onChange={handleClick} name="country" placeholder="Country" className="registration-input grid-mem shift-right" />
+            <input type="text" value={regDetails.state} onChange={handleClick} name="state" placeholder="State" className="registration-input grid-mem shift-left" />
             </div>
         </div>
         <div className="btn-container">
