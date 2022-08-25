@@ -171,6 +171,7 @@ line-height: 17px;
 letter-spacing: 0.1em;
 
 color: #FFFFFF;
+cursor: pointer;
 }
 .login-btn:hover{
     box-shadow: 2.5px 0px 10px 6px rgba(200, 151, 250, 0.52);
