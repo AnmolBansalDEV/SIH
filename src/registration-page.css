@@ -1,23 +1,68 @@
 .registration-page{
     background: linear-gradient(101.67deg, #000000 0%, #0A001C 100%);
+    padding-bottom: 3rem;
     /* text-align: center; */
+}
+.registration-input{
+    background: linear-gradient(116.92deg, rgba(255, 255, 255, 0.4) 10.83%, rgba(198, 194, 194, 0.1) 80.06%);
+box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+margin-bottom: 2rem;
+border-radius: 7px;
+border: none;
+width: 16rem;
+height: 3rem;
+color: #fff;
+font-weight: 500;
+font-size: 20px;
+letter-spacing: 2px;
+/* text-align: center; */
+text-indent: 10px;
 }
 .full-size{
     margin: auto;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     height: 3rem;
-    width: 38rem;
+    width: 33rem;
     display: block;
 }
 
 .reg-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr ;
-    column-gap: 0px;
+    width: 50%;
+    margin: 0 auto ;
+    grid-template: 60px 60px/ 1fr 1fr ;
+    column-gap: 0rem;
+    row-gap: 0em;
 }
 .grid-mem{
     /* margin-right: 0px; */
     /* margin-left: 10rem; */
     /* align-self: right;     */
     text-align: center;
+    display: flex;
+    /* align-self: center; */
+    justify-self: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
 }
+.shift-right{
+    margin-left: 3rem;
+}
+.shift-left{
+    margin-right: 3rem;
+}
+::placeholder {
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: left;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    mix-blend-mode: overlay;
+      }

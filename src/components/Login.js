@@ -26,8 +26,8 @@ setCredentials((prevCred)=>({...prevCred, [input.target.name]: input.target.valu
             <input type="password" onChange={handleClick} value={credentials.password} name="password" placeholder="Password" className="login-input" />
         </div>
         <div className="btn-container">
-        <button onclick={handleSubmit} className="login-btn">Login</button>
-        <button onclick={()=> navigate('/register')} className="login-btn">Register</button>
+        <button onClick={handleSubmit} className="login-btn">Login</button>
+        <button onClick={()=> navigate('/register')} className="login-btn">Register</button>
         </div>
         </div>
     )
