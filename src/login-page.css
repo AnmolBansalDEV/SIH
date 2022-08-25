@@ -20,8 +20,8 @@
 }
 .navigation-link{
     position: relative;
-    top: 2rem;
-    right:2rem;
+    top: 3rem;
+    right:2.7rem;
 }
 .navigation-bar{
     font-family: 'Montserrat';
@@ -42,7 +42,7 @@ color: #FFFFFF;
 font-style: normal;
 font-weight: 700;
 font-size: 30px;
-padding-left: 10px;
+padding-left: 0px;
 line-height: 61px;
 letter-spacing: 0.2em;
 color: #ffffff;
