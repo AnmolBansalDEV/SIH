@@ -16,7 +16,7 @@
 .sphere{
     position: absolute;
 /* width: 130px; */
-width: calc(50% - 32rem);
+width: calc(50% - 34rem);
 height: calc(50% - 3.5rem);
 right: calc(50vw + 16%);
 top: 0;
@@ -78,6 +78,7 @@ a{
 .about{
     font-family: 'Montserrat';
     font-style: normal;
+    margin-bottom: 2rem;
     font-weight: 700;
     font-size: 15px;
     line-height: 29px;
@@ -94,6 +95,7 @@ a{
     font-size: 15px;
     line-height: 29px;
     letter-spacing: 0.2em;
+    margin-bottom: 2rem;
     margin-left: 50px;
     color: #000000;
     text-decoration: none;
@@ -109,6 +111,7 @@ height: 2rem;
 text-align: center;
 padding: 0 10px;
 cursor: pointer;
+margin-bottom: 2rem;
 }
 .login:hover{
     box-shadow: 2.5px 0px 10px 1px #48b4db ;
