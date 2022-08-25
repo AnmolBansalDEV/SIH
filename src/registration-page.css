@@ -63,10 +63,10 @@ text-indent: 10px;
     /* justify-content: center; */
 }
 .shift-right{
-    margin-left: 3rem;
+    margin-left: 5rem;
 }
 .shift-left{
-    margin-right: 3rem;
+    margin-right: 5rem;
 }
 ::placeholder {
     
