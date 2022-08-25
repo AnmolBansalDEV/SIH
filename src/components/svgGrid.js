@@ -3,7 +3,7 @@ import React from 'react'
 export default function svgGrid(){
     return(
         <svg className='grid' width="1980" height="900" viewBox="0 100 2000 800" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
-        <rect width="1980" height="900" fill="url(#pattern0)"/>
+        <rect width="1980" height="1000" fill="url(#pattern0)"/>
         <defs>
         <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
         <use xlinkHref="#image0_7_67" transform="translate(0 -0.0570359) scale(0.000520021 0.00102964)"/>
