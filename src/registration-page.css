@@ -1,6 +1,7 @@
 .registration-page{
     background: linear-gradient(101.67deg, #000000 0%, #0A001C 100%);
     padding-bottom: 3rem;
+    /* height: 100%; */
     /* text-align: center; */
 }
 .registration-page > h1{

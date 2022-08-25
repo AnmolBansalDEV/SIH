@@ -1,6 +1,7 @@
 .login-page{
     background: linear-gradient(101.67deg, #000000 0%, #0A001C 100%);
     padding-bottom: 6rem;
+    /* height: 100%; */
 }
 .loginNav{
     padding: 0 326px;
@@ -185,14 +186,16 @@ color: #FFFFFF;
 .cylinder-img{
     width: 20%;
     position: absolute;
-    top: -2.7rem;
-    left: 7rem;
+    /* top: -2.7rem ; */
+    top: -8%;
+    /* left: 7rem; */
+    left: 9%;
 }
 .gear-img{
     width: 36%;
     position: absolute;
     right: 0;
-    bottom: 0px;
+    bottom: 0;
 }
 
 ::placeholder {
