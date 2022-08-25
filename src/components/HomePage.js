@@ -12,6 +12,7 @@ export default function HomePage(){
     let navigate = useNavigate();
     return (
         <section className="Home">
+            <div className='home-div'>
         <SvgGrid />
         <SvgStar />
         <SvgTriangle />
@@ -23,6 +24,7 @@ export default function HomePage(){
                 <p>Store your data using our simple API. It’s fast, open, and it’s free.</p>
             <button onClick={()=> (navigate("/login"))} className='demo-btn'><span>START STORING</span></button>
         </div>    
+        </div>
         <Footer />
         </section>
     )
