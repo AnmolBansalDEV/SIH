@@ -111,7 +111,7 @@ padding: 0 10px;
 cursor: pointer;
 }
 .login:hover{
-    box-shadow: 2.5px 0px 10px 6px #DF7878 ;
+    box-shadow: 2.5px 0px 10px 1px #48b4db ;
     }
 
 .login-txt{
@@ -175,7 +175,7 @@ cursor: pointer;
 
 }
 .demo-btn:hover{
-    box-shadow: 2.5px 0px 10px 6px #DF7878 ;
+    box-shadow: 2.5px 0px 10px 1px #48b4db ;
 }
 .demo-btn > span{
     font-family: 'Montserrat';
