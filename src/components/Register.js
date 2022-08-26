@@ -27,6 +27,7 @@ export default function Register(){
     }
     function handleSignUp(e){
         e.preventDefault();
+        localStorage.setItem(JSON.stringify(regDetails.username), JSON.stringify(regDetails));
         console.log(regDetails);
     }
     return(

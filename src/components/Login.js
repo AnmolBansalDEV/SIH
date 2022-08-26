@@ -13,10 +13,14 @@ export default function Login(){
 
    function handleClick(input) { 
 setCredentials((prevCred)=>({...prevCred, [input.target.name]: input.target.value}))
-    console.log(credentials);
+    // console.log(credentials);
 }
     function handleSubmit(e){
         e.preventDefault();
+        let person = JSON.parse(localStorage.getItem(JSON.stringify(credentials.username)));
+        if(credentials.username == person.username && credentials.password == person.password){
+            navigate('/dashboard');
+        }else console.log('error');
     }
     function toggleView(){
         setCredentials((prevCred)=>({...prevCred, isVisible: !prevCred.isVisible}));

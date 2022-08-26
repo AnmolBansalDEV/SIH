@@ -1,7 +1,9 @@
 import React,{useState} from "react";
 import uploadImg from '../assets/upload-img.png'
+import { useNavigate } from "react-router-dom";
 
 export default function Upload(){
+    let navigate = useNavigate();
     const [uploadData, setUploadData] = useState({MName:"",type:"", language:"",duration:"",distributors:"", region:"",uniqueId:""});
     const [file, setFile] = useState(null);
     function handleClick(){
@@ -12,6 +14,7 @@ export default function Upload(){
     }
     function handleSubmit(e){
         e.preventDefault();
+        
         console.log(uploadData);
     }
     return(
@@ -62,7 +65,7 @@ export default function Upload(){
         </div>
         
                 </div>
-                    <button onSubmit={handleSubmit} className="uploadPage-btn">Upload</button>
+                    <button onClick={()=> navigate('/dashboard')} onSubmit={handleSubmit} className="uploadPage-btn">Upload</button>
             </div>
         </div>
     )
