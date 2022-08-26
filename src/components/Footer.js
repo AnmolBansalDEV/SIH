@@ -11,8 +11,8 @@ export default function Footer(){
                     <img src={logo} alt='Enigma 1' />
                     <h1>ENIGMA 1</h1>
                 </div>
-                {/* <p>Sign up for free using your email address.</p>
-                <button>Sign Up</button> */}
+                <p>Sign up for free using your email address.</p>
+                <button>Sign Up</button>
             </div>
             <div className="footer-resources">
                 <h1>Resources</h1>

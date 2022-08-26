@@ -8,6 +8,8 @@ import Astitwa from '../assets/astitwa.jpeg'
 import Ishika from '../assets/ishika.jpeg'
 import Sarthak from '../assets/sarthak.jpeg'
 import Ashwinee from '../assets/ashwinee.jpeg'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 export default function Team(){
     return(

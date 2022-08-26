@@ -2,11 +2,13 @@ import React from 'react';
 import './App.css';
 import './login-page.css'
 import './footer-page.css'
+import './upload-page.css'
 import './registration-page.css'
 import HomePage from './components/HomePage'
 import Team from './components/Team';
 import Login from './components/Login';
 import Error from './components/Error';
+import Upload from './components/Upload';
 import Register from './components/Register';
 
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
@@ -22,6 +24,7 @@ function App() {
         <Route path='/team' element={<Team />} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
+        <Route path='/upload' element={<Upload />} />
         {/* <Route path='/nav' element={<Nav />} /> */}
 
         <Route path='/*' element={<Error />} />
